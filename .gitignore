@@ -1,0 +1,16 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+.env
+.env.*
+!.env.example
+.pulumi/
+Pulumi.*.yaml
+!Pulumi.example.yaml
+data/
